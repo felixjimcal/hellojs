@@ -40,3 +40,9 @@ function square(number){
     return number * number;
 }
 console.log(square(3));
+// -----------------------------
+// Flip a coin
+const flip = y =>console.log(Math.abs(y - 1))
+
+flip(0)
+flip(1)
