@@ -1,5 +1,6 @@
 // Install extension "Live server"
 // Right click on htlm file and select "Open with Live Server"
+// On web, right click, options "Inspect"
 
 let name = "Felix";
 const interestRate = 0.3; // constant
@@ -33,3 +34,9 @@ console.log(selectedColors[0]);
 // Multiple types allowed
 selectedColors.push(99);
 console.log(selectedColors);
+// -----------------------------
+// Functions
+function square(number){
+    return number * number;
+}
+console.log(square(3));
